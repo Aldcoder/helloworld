@@ -9,9 +9,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Asleep)
 })
-function Clap () {
-    basic.showString("Hello!")
-}
+basic.showString("At your service")
 basic.showLeds(`
     # . # . #
     # . # . #
